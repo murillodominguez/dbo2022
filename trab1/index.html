@@ -1,0 +1,129 @@
+<!--Trabalho Aula 3 - Nome: Murillo Dominguez - Matrícula: 11030404 - Turma 2C-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Trabalho Murillo Dominguez</title>
+    <style>
+        table,th, td{
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+        ul{
+            list-style-type:disc
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav>
+    </nav>
+    <main>
+        <a href="https://ifrs.edu.br" target="_blank"><img src="./imagem1.png" alt="logo_ifrs"
+                width="400"></a><br><br><br>
+
+        <figure>
+            <img src="./img/imagem2.jpeg" alt="e-commerce" width="400">
+            <figcaption>Relações Comerciais Online</figcaption>
+        </figure>
+
+        <h1>Relação de Venda das Mercadorias</h1>
+        <p><i><b>Abaixo estão presentes a variedade de produtos e o lucro por mês da empresa</b></i></p><br>
+        <ul>
+            <li>Frutas
+                <ol type=1>
+                    <li>Banana</li>
+                    <li>Maçã</li>
+                    <li>Abacate</li>
+                </ol>
+            </li>
+            <li>Vegetais
+                <ol type=I>
+                    <li>Cebola</li>
+                    <li>Pimentão
+                        <ol type="a">
+                            <li>Verde</li>
+                            <li>Vermelho</li>
+                            <li>Amarelo</li>
+                        </ol>
+                    </li>
+                    <li>Tomate</li>
+                </ol>
+            </li>
+        </ul>
+        <br>
+        <table>
+            <caption><b>Lucro por mês</b></caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th colspan="2">Frutas</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Banana</th>
+                    <th>Maçã</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table><br><br>
+        <form method="post" action="/action_page.php">
+            <fieldset>
+                <legend>Login:</legend>
+                <label for="u1">Usuário: </label>
+                <input type="text" name="u1" id="u1" placeholder="Digite seu usuário:">
+                <label for="s1">Senha: </label>
+                <input type="password" name="s1" id="s1" placeholder="Digite sua senha:">
+            </fieldset>
+            <fieldset>
+                <legend>Dados:</legend>
+                <label for="n1">Nome: </label>
+                <input type="text" name="nome" id="n1" placeholder="Digite seu nome:"><br>
+                <label for="dt_nasc">Data de Nascimento: </label>
+                <input type="date" name="dt_nasc" id="dt_nasc"><br>
+                <label for="cpf">CPF: </label>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf: xxx.xxx.xxx-xx" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}"><br>
+                <label for="tel">Telefone: </label>
+                <input type="tel" name="telefone" id="tel" placeholder="Digite seu número de telefone:"><br>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail:"><br>
+                <label for="comment">Deixe uma avaliação</label>
+                <textarea name="comment" id="comment" cols="10" rows="5" placeholder="Deixe uma avaliação aqui"></textarea><br>
+                <input type="submit" name="Enviar" id="envio" value="Enviar">
+            </fieldset>
+        </form><br><br>
+        <iframe width="280" height="157" src="https://www.youtube.com/embed/_pxMTXadCqI" allowfullscreen>
+        </iframe>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
